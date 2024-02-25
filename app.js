@@ -14,13 +14,32 @@ const randChoice = (arr) => {
     return arr[randomIndex];
 };
 
+const randPhone = () => {
+    phoneNumber = '+48 ';
+
+    //first number
+    phoneNumber += Math.floor(Math.random() * 4) + 5;
+
+    //two next numbers
+    for(let i=0; i<2; i++){
+        phoneNumber += Math.floor(Math.random() * 10);
+    }
+
+    //two next sections of polish number
+    for(let i=0; i<2; i++){
+        phoneNumber += '-';
+
+        for(let i=0; i<3; i++){
+            phoneNumber += Math.floor(Math.random() * 10);
+        }
+    }
+
+    return phoneNumber;
+}
+
 for( let i = 0; i < 20; i++ ){
     const person = {
         id: i+1,
-        gender: '',
-        firstName: '',
-        lastName: '',
-        age: '',
     };
 
     person.gender = randChoice(genders);
@@ -34,6 +53,8 @@ for( let i = 0; i < 20; i++ ){
     person.lastName = randChoice(lastNames);
 
     person.age = Math.floor(Math.random() * (78 - 18 + 1)) + 18;
+
+    person.phone = randPhone();
 
     people.push(person);
   }
