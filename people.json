@@ -1,0 +1,142 @@
+[
+  {
+    "id": 1,
+    "gender": "M",
+    "firstName": "Carl",
+    "lastName": "Smith",
+    "age": 43
+  },
+  {
+    "id": 2,
+    "gender": "M",
+    "firstName": "John",
+    "lastName": "Anderson",
+    "age": 48
+  },
+  {
+    "id": 3,
+    "gender": "F",
+    "firstName": "Barbara",
+    "lastName": "Roberts",
+    "age": 64
+  },
+  {
+    "id": 4,
+    "gender": "F",
+    "firstName": "Julia",
+    "lastName": "Smith",
+    "age": 18
+  },
+  {
+    "id": 5,
+    "gender": "M",
+    "firstName": "John",
+    "lastName": "Edison",
+    "age": 58
+  },
+  {
+    "id": 6,
+    "gender": "M",
+    "firstName": "Carl",
+    "lastName": "Roberts",
+    "age": 54
+  },
+  {
+    "id": 7,
+    "gender": "M",
+    "firstName": "John",
+    "lastName": "Edison",
+    "age": 45
+  },
+  {
+    "id": 8,
+    "gender": "M",
+    "firstName": "Tom",
+    "lastName": "Whiliams",
+    "age": 38
+  },
+  {
+    "id": 9,
+    "gender": "M",
+    "firstName": "John",
+    "lastName": "Anderson",
+    "age": 27
+  },
+  {
+    "id": 10,
+    "gender": "F",
+    "firstName": "Anastasia",
+    "lastName": "Roberts",
+    "age": 74
+  },
+  {
+    "id": 11,
+    "gender": "F",
+    "firstName": "Julia",
+    "lastName": "Anderson",
+    "age": 21
+  },
+  {
+    "id": 12,
+    "gender": "F",
+    "firstName": "Anastasia",
+    "lastName": "Smith",
+    "age": 23
+  },
+  {
+    "id": 13,
+    "gender": "F",
+    "firstName": "Barbara",
+    "lastName": "Whiliams",
+    "age": 51
+  },
+  {
+    "id": 14,
+    "gender": "M",
+    "firstName": "Carl",
+    "lastName": "Edison",
+    "age": 34
+  },
+  {
+    "id": 15,
+    "gender": "M",
+    "firstName": "Frank",
+    "lastName": "Whiliams",
+    "age": 33
+  },
+  {
+    "id": 16,
+    "gender": "F",
+    "firstName": "Julia",
+    "lastName": "Roberts",
+    "age": 73
+  },
+  {
+    "id": 17,
+    "gender": "M",
+    "firstName": "Carl",
+    "lastName": "Edison",
+    "age": 74
+  },
+  {
+    "id": 18,
+    "gender": "M",
+    "firstName": "Carl",
+    "lastName": "Anderson",
+    "age": 51
+  },
+  {
+    "id": 19,
+    "gender": "F",
+    "firstName": "Samantha",
+    "lastName": "Roberts",
+    "age": 48
+  },
+  {
+    "id": 20,
+    "gender": "F",
+    "firstName": "Anastasia",
+    "lastName": "Whiliams",
+    "age": 35
+  }
+]

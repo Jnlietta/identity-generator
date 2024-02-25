@@ -37,3 +37,13 @@ for( let i = 0; i < 20; i++ ){
 
     people.push(person);
   }
+
+  const jsonData = JSON.stringify(people, null, 2);
+
+  fs.writeFile('people.json', jsonData, (err) => {
+    if (err) {
+      console.log('Something went wrong');
+    } else {
+      console.log('File has been successfully generated! Check people.json');
+    }
+  });
