@@ -15,5 +15,25 @@ const randChoice = (arr) => {
 };
 
 for( let i = 0; i < 20; i++ ){
-    console.log('Loop iteration: ' + i);
+    const person = {
+        id: i+1,
+        gender: '',
+        firstName: '',
+        lastName: '',
+        age: '',
+    };
+
+    person.gender = randChoice(genders);
+    
+    if (person.gender === 'M'){
+        person.firstName = randChoice(maleNames);
+    } else {
+        person.firstName = randChoice(femaleNames);
+    }
+
+    person.lastName = randChoice(lastNames);
+
+    person.age = Math.floor(Math.random() * (78 - 18 + 1)) + 18;
+
+    people.push(person);
   }
