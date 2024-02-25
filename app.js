@@ -37,6 +37,12 @@ const randPhone = () => {
     return phoneNumber;
 }
 
+const createEmail = (name, surname) => {
+    email = name + '.' + surname + '@gmail.com';
+
+    return email.toLowerCase();
+}
+
 for( let i = 0; i < 20; i++ ){
     const person = {
         id: i+1,
@@ -55,6 +61,8 @@ for( let i = 0; i < 20; i++ ){
     person.age = Math.floor(Math.random() * (78 - 18 + 1)) + 18;
 
     person.phone = randPhone();
+
+    person.email = createEmail(person.firstName,person.lastName);
 
     people.push(person);
   }
