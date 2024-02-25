@@ -44,9 +44,9 @@ const createEmail = (name, surname) => {
 }
 
 for( let i = 0; i < 20; i++ ){
-    const person = {
-        id: i+1,
-    };
+    const person = {};
+
+    person.id = i + 1;
 
     person.gender = randChoice(genders);
     
